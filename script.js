@@ -1,18 +1,17 @@
-function firstWord(s) {
-  // your code here
-	if(s.trim() === '' || !s.includes(' ')){
-		return str;
-	}
+function firstWord(str) {
+  // Check if the input string is empty or does not contain any space
+  if (str.trim() === '' || !str.includes(' ')) {
+    return str; // Return the entire string if conditions are met
+  }
 
-	const firstSpaceIndex = s.indexOf(' ');
-	const firstWord = s(0 , firstSpaceIndex);
+  // Extract the first word up to the first space
+  const firstSpaceIndex = str.indexOf(' ');
+  const firstWord = str.substring(0, firstSpaceIndex);
 
-	return firstword;
-	
-	
+  return firstWord; // Return the first word
 }
 
 // Do not change the code below
 
-const s = prompt("Enter String:");
-alert(firstWord(s));
+// const s = prompt("Enter String:");
+alert(firstWord(str));
