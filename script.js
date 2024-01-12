@@ -1,11 +1,11 @@
 function firstWord(s) {
   // your code here
-	if(str.trim() === '' || !str.includes(' ')){
+	if(s.trim() === '' || !s.includes(' ')){
 		return str;
 	}
 
-	const firstSpaceIndex = str.indexOf(' ');
-	const firstWord = str(0 , firstSpaceIndex);
+	const firstSpaceIndex = s.indexOf(' ');
+	const firstWord = s(0 , firstSpaceIndex);
 
 	return firstword;
 	
